@@ -15,6 +15,6 @@ My Approach
 ------------------
 
 * First, this looks exciting to build. 
- * I am pretty sure I can build it with sections of flexbox throughout the entire page. 
+    * I am pretty sure I can build it with sections of flexbox throughout the entire page. 
 * After going that route, I would like to use grid. 
- * Thinking compatability will be an issue. So, this is how I will challenge myself a little extra.
+    * Thinking compatability will be an issue. So, this is how I will challenge myself a little extra.
