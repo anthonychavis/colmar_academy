@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
     line-height: 1.5;
 }
@@ -17,11 +16,10 @@
 header {
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     z-index: 5;
-    background-color: white;
-}
-hr {
-    border: red 1px solid;
+    background-color: hsl(0, 0%, 100%);
 }
 @media screen and (min-width: 715px){
     .mobile {
@@ -33,7 +31,7 @@ hr {
         min-height: 4rem;
         margin: 0 1.5rem;
         /* border: purple 0.5px solid; */
-    }
+}
     
     h1 {
         text-transform: uppercase;
@@ -73,6 +71,10 @@ hr {
     }
 
     header {
+        position: fixed;
+        top: 0;
+        z-index: 5;
+        background-color: hsl(0, 0%, 100%);
         display: flex;
         align-items: center;
         /* border: solid red 1px; */
