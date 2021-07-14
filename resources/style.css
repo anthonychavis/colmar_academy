@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
     line-height: 1.5;
 }
@@ -13,7 +14,16 @@
 
 
 /* HEADER */
-@media screen and (min-width: 763px){
+header {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+}
+hr {
+    border: red 1px solid;
+}
+@media screen and (min-width: 715px){
     .mobile {
         display: none;
     }
@@ -22,7 +32,7 @@
         align-items: center;
         min-height: 4rem;
         margin: 0 1.5rem;
-        /* border: purple 5px solid; */
+        /* border: purple 0.5px solid; */
     }
     
     h1 {
@@ -57,7 +67,7 @@
     }
 }
 
-@media screen and (max-width: 762px){
+@media screen and (max-width: 715px){
     .desktop {
         display: none;
     }
