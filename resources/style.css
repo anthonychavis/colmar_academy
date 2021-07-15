@@ -3,14 +3,36 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
+    /* font-size: 1.125rem; */
 }
 .inline-block {
     display: inline-block;
 }
+
 .inline {
     display: inline;
 }
 
+.even_bgcolor {
+    background-color: hsl(36, 100%, 90%);
+}
+
+.odd_bgcolor {
+    background-color: hsl(0, 0%, 50%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(177, 88%, 23%);
+}
+
+img {
+    border-radius: 1px;
+}
+
+p, a, button {
+    font-size: 1.125rem;
+}
 
 /* HEADER */
 header {
@@ -19,7 +41,7 @@ header {
     right: 0;
     left: 0;
     z-index: 5;
-    background-color: hsl(0, 0%, 100%);
+    /* background-color: hsl(0, 0%, 100%); */
 }
 @media screen and (min-width: 715px){
     .mobile {
@@ -28,7 +50,7 @@ header {
     header .desktop {
         display: flex;
         align-items: center;
-        min-height: 4rem;
+        height: 4rem;
         margin: 0 1.5rem;
         /* border: purple 0.5px solid; */
 }
@@ -74,7 +96,7 @@ header {
         position: fixed;
         top: 0;
         z-index: 5;
-        background-color: hsl(0, 0%, 100%);
+        /* background-color: hsl(0, 0%, 100%); */
         display: flex;
         align-items: center;
         /* border: solid red 1px; */
@@ -94,4 +116,94 @@ header {
     nav a {
         display: flex;
     }
+}
+
+/* MAIN AREA */
+main {
+    position: relative;
+    top: 4rem;
+    /* padding: 2rem 0; */
+}
+section {
+    display: flex;
+    /* height: auto; */
+}
+
+/* SECTION 1&2 */
+.section_left {
+    padding: 2rem 1.5rem;
+    width: 60%;
+    border-right: grey 0.0125rem solid;
+}
+section figure {
+    width: 100%;
+}
+section img {
+    width: 100%;
+}
+
+.section_right {
+    width: 40%;
+    padding: 2rem 0;
+}
+
+
+/* SECTION 1 */
+.banner_right {
+    width: 75%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.banner_right h2 {
+    font-size: 2.75rem;
+}
+.banner_right p {
+    font-size: 1.75rem;
+    padding: 2rem 0;
+}
+
+button {
+    color: hsl(36, 100%, 90%);
+    background-color: hsl(0, 0%, 27%);
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+button:hover {
+    cursor: pointer;
+}
+/* button:active {
+    cursor: progress;
+} */
+
+/* SECTION 2 */
+article {
+    display: flex;
+    width: 100%;
+    /* height: auto; */
+    border-bottom: grey 0.0125rem solid;
+}
+article figure{
+    width: 35%;
+    height: auto;
+    padding: 1rem 0  0.5rem 1rem;
+
+}
+#section2 h2 {
+    padding: 2rem 0 1.5rem;
+}
+.article_right {
+    width: 65%;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.article_right h3 {
+    padding: 0 0 0.5rem;
+}
+.article_right a {
+    padding: 0.5rem 0 0;
 }
