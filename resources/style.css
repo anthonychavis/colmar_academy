@@ -43,6 +43,7 @@ a {
 
 img {
     border-radius: 1px;
+    display: block;
 }
 
 p, a, button {
@@ -197,7 +198,7 @@ article {
 article figure{
     width: 35%;
     height: auto;
-    padding: 1rem 0  0.5rem 1rem;
+    padding: 1rem 0  1rem 1rem;
 
 }
 #section2 h2 {
