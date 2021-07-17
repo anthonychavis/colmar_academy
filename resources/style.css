@@ -12,6 +12,10 @@
 .inline {
     display: inline;
 }
+img {
+    border-radius: 1px;
+    display: block;
+}
 
 /* COLOR */
 .nav-academy-color {
