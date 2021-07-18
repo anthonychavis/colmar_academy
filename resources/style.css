@@ -5,17 +5,6 @@
     line-height: 1.5;
     /* font-size: 1.125rem; */
 }
-.inline-block {
-    display: inline-block;
-}
-
-.inline {
-    display: inline;
-}
-img {
-    border-radius: 1px;
-    display: block;
-}
 
 /* COLOR */
 .nav-academy-color {
@@ -45,6 +34,19 @@ a {
     color: hsl(177, 88%, 23%);
 }
 
+footer, footer a {
+    color: hsl(0, 0%, 50%);
+}
+/* END COLOR */
+
+.inline-block {
+    display: inline-block;
+}
+
+img {
+    border-radius: 1px;
+    display: block;
+}
 
 .text-center {
     text-align: center;
@@ -298,10 +300,31 @@ video {
     padding: 1.5rem 0 0.5rem;
 }
 
-#video-p {
+/* #video-p {
     padding: 0 0 2rem;
-}
+} */
 
 #section4 article {
     border: none;
+}
+
+/* FOOTER */
+footer {
+    border-top: hsl(0, 0%, 27%) 1px solid;
+    position: relative;
+    top: 4rem;
+    height: 4rem;
+}
+
+#left-foot {
+    flex-grow: 1;
+    padding: 1rem 1.5rem;
+}
+
+#right-foot {
+    padding: 1rem 1.5rem;
+}
+
+#right-foot a {
+    padding-left: 1rem;
 }
