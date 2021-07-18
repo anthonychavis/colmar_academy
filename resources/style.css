@@ -73,7 +73,8 @@ header {
         display: flex;
         align-items: center;
         height: 4rem;
-        margin: 0 1.5rem;
+        padding: 0 1.5rem;
+        /* border-bottom: hsl(0, 0%, 50%) 1px solid; */
         /* border: purple 0.5px solid; */
 }
     
@@ -310,7 +311,7 @@ video {
 
 /* FOOTER */
 footer {
-    border-top: hsl(0, 0%, 27%) 1px solid;
+    border-top: hsl(0, 0%, 27%) 1gitpx solid;
     position: relative;
     top: 4rem;
     height: 4rem;
