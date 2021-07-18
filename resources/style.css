@@ -276,3 +276,32 @@ article figure{
     padding: 0 1rem;
     height: 100%;
 }
+
+/* SECTION 4 */
+#section4 {
+    display: block;
+}
+
+#section4 h2 {
+    padding: 2rem 0;
+}
+#section4 .section_left, #section4 .section_right {
+    padding-top: 0;
+    border: none;
+}
+video {
+    width: 100%;
+    /* height: auto; */
+}
+
+#video-h3 {
+    padding: 1.5rem 0 0.5rem;
+}
+
+#video-p {
+    padding: 0 0 2rem;
+}
+
+#section4 article {
+    border: none;
+}
