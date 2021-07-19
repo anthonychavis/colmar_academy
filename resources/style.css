@@ -237,6 +237,17 @@ article figure{
 #section2 h2 {
     padding: 2rem 0 1.5rem;
 }
+
+#section2 p a {
+    color: hsl(240, 100%, 15%);
+    transition: all 300ms ease-out;
+}
+#section2 p a:hover, #section2 p a:focus {
+    color: hsl(177, 88%, 23%);
+    text-decoration: underline;
+    text-underline-offset: 3.5px;
+}
+
 .article_right {
     width: 65%;
     padding: 1rem;
