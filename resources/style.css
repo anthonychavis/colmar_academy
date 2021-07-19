@@ -205,6 +205,7 @@ button:hover, button:focus {
     color: hsl(240, 100%, 15%);
     background-color: hsl(36, 100%, 90%);
     border-radius: 50px;
+    font-weight: bold;
 }
 /* button:active {
     cursor: progress;
