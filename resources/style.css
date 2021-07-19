@@ -68,6 +68,10 @@ img {
 p, a, button {
     font-size: 1.125rem;
 }
+p {
+    max-width: 80ch;
+    min-width: 50ch;
+}
 
 /* HEADER */
 header {
