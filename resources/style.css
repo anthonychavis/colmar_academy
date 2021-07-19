@@ -415,6 +415,11 @@ footer {
         font-size: 1.5rem;
     }
     
+button {
+    width: 55%;
+    margin: 0 auto;
+}
+
     h2 {
         font-size: 1.8rem;
     }
@@ -440,14 +445,16 @@ footer {
     #section3 article {
         max-width: 50%;
     }
-
-    footer {
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 559px) {
     #section3 article {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    footer {
+        text-align: center;
     }
 }
