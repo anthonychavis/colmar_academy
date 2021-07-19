@@ -46,8 +46,13 @@ a {
 } */
 /* END COLOR */
 
+
 .inline-block {
     display: inline-block;
+}
+
+h2{
+    font-size: 2.25rem;
 }
 
 img {
@@ -116,6 +121,7 @@ header {
     header a:hover, header a:focus, footer a:hover, footer a:focus {
         color: hsl(177, 88%, 23%);
         text-decoration: underline;
+        text-underline-offset: 3px;
     }
 }
 
@@ -245,6 +251,11 @@ article figure{
     padding: 0.5rem 0 0;
 }
 
+.article_right a:hover, .article_right a:focus {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
 /* SECTION 3 */
 #section3 {
     padding: 2rem 3.5rem;
@@ -270,6 +281,16 @@ article figure{
     flex-flow: column;
     border: none;
 }
+
+#section3 a {
+    color: hsl(240, 100%, 15%);
+}
+#section3 a:hover, #section3 a:focus {
+    color: hsl(177, 88%, 23%);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 #section3 figure {
     padding: 0;
     width: 100%;
