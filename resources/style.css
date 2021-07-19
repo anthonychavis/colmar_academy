@@ -3,30 +3,37 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
+    color: hsl(240, 100%, 15%);
     /* font-size: 1.125rem; */
 }
 
 /* COLOR */
 .nav-academy-color {
-    color: hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 40%);
 }
 .nav-color {
-    color: hsl(0, 0%, 0%);
+    /* color: hsl(0, 0%, 0%); */
+    color: hsl(240, 100%, 15%);
+
 }
 .btn-text-color {
     color: hsl(36, 100%, 90%);
 }
 
-.btn-bgcolor {
-    background-color: hsl(0, 0%, 27%);
+.bgcolor1 {
+    background-color: hsl(240, 67%, 95%);
 }
 
-.even_bgcolor {
-    background-color: hsl(36, 100%, 90%);
+.bgcolor2 {
+    background-color: hsl(35, 100%, 97%);
 }
 
-.odd_bgcolor {
-    background-color: hsl(0, 0%, 50%);
+.bgcolor3 {
+    background-color: hsl(187, 52%, 80%);
+}
+
+.bgcolor4 {
+    background-color: hsl(187, 52%, 85%);
 }
 
 a {
@@ -34,9 +41,9 @@ a {
     color: hsl(177, 88%, 23%);
 }
 
-footer, footer a {
+/* footer, footer a {
     color: hsl(0, 0%, 50%);
-}
+} */
 /* END COLOR */
 
 .inline-block {
@@ -106,6 +113,10 @@ header {
     li a {
         text-decoration: none;
     }
+    header a:hover, header a:focus, footer a:hover, footer a:focus {
+        color: hsl(177, 88%, 23%);
+        text-decoration: underline;
+    }
 }
 
 @media screen and (max-width: 764px){
@@ -152,7 +163,6 @@ section {
 .section_left {
     padding: 2rem 1.5rem;
     width: 60%;
-    border-right: grey 0.0125rem solid;
 }
 section figure {
     width: 100%;
@@ -186,16 +196,25 @@ section img {
 
 button {
     padding: 0.5rem;
-    border-radius: 2px;
+    border-radius: 4px;
+    background-color: hsl(240, 100%, 25%);
+    transition: all 300ms ease-out 200ms;
 }
-button:hover {
+button:hover, button:focus {
     cursor: pointer;
+    color: hsl(240, 100%, 15%);
+    background-color: hsl(36, 100%, 90%);
+    border-radius: 50px;
 }
 /* button:active {
     cursor: progress;
 } */
 
 /* SECTION 2 */
+#section2 .section_left {
+    border-right: grey 0.0125rem solid;
+}
+
 article {
     display: flex;
     width: 100%;
@@ -244,19 +263,16 @@ article figure{
 #section3 article {
     max-width: 33%;
     min-width: 14rem;
-    height:auto;
+    height: auto;
     padding: 1rem;
     display: inline-flex;
     flex-flow: column;
+    border: none;
 }
 #section3 figure {
     padding: 0;
     width: 100%;
     height: auto;
-}
-
-#section3 .even_bgcolor {
-    height: 100%;
 }
 
 #section3 img {
@@ -275,9 +291,13 @@ article figure{
     padding: 0 0 1.5rem;
 }
 
+.section-3-text-container {
+    height: 100%;
+}
+
 .section-3-text {
     padding: 0 1rem;
-    height: 100%;
+    min-height: 100%;
 }
 
 /* SECTION 4 */
@@ -311,7 +331,7 @@ video {
 
 /* FOOTER */
 footer {
-    border-top: hsl(0, 0%, 27%) 1gitpx solid;
+    border-top: hsl(0, 0%, 27%) 1px solid;
     position: relative;
     top: 4rem;
     height: 4rem;
