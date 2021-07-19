@@ -351,6 +351,15 @@ video {
     border: none;
 }
 
+#section4 a {
+    color: hsl(240, 100%, 15%);
+}
+#section4 a:hover, #section4 a:focus {
+    color: hsl(177, 88%, 23%);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 /* FOOTER */
 footer {
     border-top: hsl(0, 0%, 27%) 1px solid;
