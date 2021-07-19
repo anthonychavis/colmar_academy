@@ -68,10 +68,6 @@ img {
 p, a, button {
     font-size: 1.125rem;
 }
-p {
-    max-width: 80ch;
-    min-width: 50ch;
-}
 
 /* HEADER */
 header {
@@ -241,7 +237,10 @@ article figure{
 #section2 h2 {
     padding: 2rem 0 1.5rem;
 }
-
+#section2 .section_left p {
+        max-width: 80ch;
+        min-width: 50ch;
+}
 #section2 p a {
     color: hsl(240, 100%, 15%);
     transition: all 300ms ease-out;
@@ -349,6 +348,12 @@ article figure{
     padding-top: 0;
     border: none;
 }
+
+#section4 .section_left p {
+    max-width: 80ch;
+    min-width: 50ch;
+}
+
 video {
     width: 100%;
     /* height: auto; */
