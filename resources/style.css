@@ -9,7 +9,9 @@
 
 /* COLOR */
 .nav-academy-color {
-    color: hsl(0, 0%, 40%);
+    /* color: hsl(0, 0%, 40%); */
+    color: hsl(240, 94%, 64%);
+
 }
 .nav-color {
     /* color: hsl(0, 0%, 0%); */
@@ -36,14 +38,26 @@
     background-color: hsl(187, 52%, 85%);
 }
 
+.bgcolor5 {
+    background-color: hsl(240, 100%, 15%);
+}
+
+#section4 p, #section4 h3, #section4 h2, #section4 a {
+    color: hsl(36, 100%, 90%);
+}
+
+#section4 .highlight-article {
+    color: hsl(240, 100%, 15%);
+}
+
 a {
     text-decoration: none;
     color: hsl(177, 88%, 23%);
 }
 
-/* footer, footer a {
-    color: hsl(0, 0%, 50%);
-} */
+footer, footer a {
+    color: hsl(240, 100%, 15%);
+}
 /* END COLOR */
 
 
@@ -372,9 +386,9 @@ video {
     border: none;
 }
 
-#section4 a {
+/* #section4 a {
     color: hsl(240, 100%, 15%);
-}
+} */
 #section4 a:hover, #section4 a:focus {
     color: hsl(177, 88%, 23%);
     text-decoration: underline;
