@@ -502,6 +502,7 @@ button {
         text-align: center;
     }
     
+    /* SECTION 2 mobile */
     #section2 article {
         border: none;
         display: block;
@@ -530,4 +531,11 @@ button {
     #section2-highlight-article {
         background-color: hsl(35, 100%, 93%);
     }
+
+    /* SECTION 3 mobile */
+    #section3 {
+        padding: 2rem 0 ;
+        /* background-color: hsl(35, 100%, 93%); */
+    }
+
 }
