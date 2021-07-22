@@ -3,43 +3,42 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
-    color: hsl(240, 100%, 15%);
-    /* font-size: 1.125rem; */
+    /* color: hsl(240, 100%, 15%); */
 }
 
 /* COLOR */
 .nav-academy-color {
     /* color: hsl(0, 0%, 40%); */
-    color: hsl(240, 94%, 64%);
-
+    /* color: hsl(240, 94%, 64%); */
+    color: hsl(276, 94%, 35%)
 }
 .nav-color {
-    /* color: hsl(0, 0%, 0%); */
-    color: hsl(240, 100%, 15%);
+    /* color: hsl(240, 100%, 15%); */
+    color: hsl(276, 94%, 5%);
 
-}
-.btn-text-color {
-    color: hsl(36, 100%, 90%);
 }
 
 .bgcolor1 {
-    background-color: hsl(240, 67%, 95%);
+    /* background-color: hsl(240, 67%, 95%); */
+    background-color: hsl(276, 94%, 45%);
 }
 
 .bgcolor2 {
-    background-color: hsl(35, 100%, 93%);
+    /* background-color: hsl(35, 100%, 93%); */
+    background-color: hsl(276, 94%, 90%);
+    
 }
 
 .bgcolor3 {
-    background-color: hsl(187, 52%, 80%);
+    background-color: hsl(187, 52%, 75%);
 }
 
 .bgcolor4 {
-    background-color: hsl(187, 52%, 85%);
+    background-color: hsl(187, 52%, 88%);
 }
 
 .bgcolor5 {
-    background-color: hsl(240, 100%, 15%);
+    background-color: hsl(276, 100%, 15%);
 }
 
 #section4 p, #section4 h3, #section4 h2, #section4 a {
@@ -52,12 +51,9 @@
 
 a {
     text-decoration: none;
-    color: hsl(177, 88%, 23%);
+    color: hsl(177, 88%, 20%);
 }
 
-footer, footer a {
-    color: hsl(240, 100%, 15%);
-}
 /* END COLOR */
 
 /* .mobile {
@@ -94,6 +90,7 @@ header {
     left: 0;
     z-index: 5;
 }
+
 @media screen and (min-width: 765px){
     header .desktop {
         display: flex;
@@ -104,10 +101,11 @@ header {
         /* border: purple 0.5px solid; */
     }
     
-    h1 {
+    h2 {
         text-transform: uppercase;
+        font-size: 2rem;
     }
-    h1 span {
+    h2 span {
         font-weight: normal;
         line-height: 2rem;
     }
@@ -143,7 +141,7 @@ header {
     .desktop {
         display: none;
     }
-
+    
     header {
         position: fixed;
         top: 0;
@@ -153,7 +151,7 @@ header {
         /* border: solid red 1px; */
         height: 4rem;
     }
-
+    
     nav .mobile {
         display: flex;
     }
@@ -163,7 +161,7 @@ header {
         align-items: center;
         width: 100vw;
     }
-
+    
     nav a {
         display: flex;
     }
@@ -199,6 +197,10 @@ section img {
 
 
 /* SECTION 1 */
+#section1 {
+    color: hsl(276, 94%, 95%);
+}
+
 .banner_right {
     width: 75%;
     height: 100%;
@@ -207,7 +209,7 @@ section img {
     flex-flow: column;
     justify-content: center;
 }
-.banner_right h2 {
+.banner_right h1 {
     font-size: 2.75rem;
 }
 .banner_right p {
@@ -218,13 +220,19 @@ section img {
 button {
     padding: 0.5rem;
     border-radius: 4px;
-    background-color: hsl(240, 100%, 25%);
+    background-color: hsl(276, 100%, 15%);
     transition: all 300ms ease-out 200ms;
+    width: 90%;
 }
+
+.btn-text-color {
+    color: hsl(276, 94%, 95%);
+}
+
 button:hover, button:focus {
     cursor: pointer;
-    color: hsl(240, 100%, 15%);
-    background-color: hsl(36, 100%, 90%);
+    color: hsl(276, 100%, 15%);
+    background-color: hsl(276, 94%, 95%);
     border-radius: 50px;
     font-weight: bold;
 }
@@ -233,6 +241,10 @@ button:hover, button:focus {
 } */
 
 /* SECTION 2 */
+#section2 {
+    color: hsl(276, 94%, 35%);
+}
+
 #section2 .section_left {
     border-right: grey 0.0125rem solid;
 }
@@ -257,11 +269,12 @@ article figure{
         min-width: 50ch;
 }
 #section2 p a {
-    color: hsl(240, 100%, 15%);
+    /* color: hsl(240, 100%, 15%); */
+    color: hsl(276, 94%, 35%);
     transition: all 300ms ease-out;
 }
 #section2 p a:hover, #section2 p a:focus {
-    color: hsl(177, 88%, 23%);
+    color: hsl(177, 88%, 20%);
     text-decoration: underline;
     text-underline-offset: 3.5px;
 }
@@ -299,6 +312,7 @@ article figure{
 
 #section3 h2 {
     padding: 0 0 1rem;
+    color: hsl(276, 94%, 90%);
 }
 
 #section3 article {
@@ -401,6 +415,7 @@ footer {
     position: relative;
     top: 4rem;
     min-height: 4rem;
+    color: hsl(276, 94%, 5%);
 }
 
 #left-foot {
