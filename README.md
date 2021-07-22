@@ -18,3 +18,4 @@ My Approach
     * I am pretty sure I can build it with sections of flexbox throughout the entire page. 
 * After going that route, I would like to use grid. 
     * Thinking compatibility will be an issue. So, this is how I will challenge myself a little extra.
+        * Eventually
