@@ -77,7 +77,7 @@ header {
     .navmobile {
         display: none;
     }
-    
+
     header .desktop {
         display: flex;
         align-items: center;
@@ -457,10 +457,13 @@ button {
         font-size: 1.95rem;
     }
 
-    
-
     #section2 .section_left {
         border: none;
+    }
+
+    #section2-left-text {
+        padding: 0 1rem;
+
     }
     
     #section2 .section_left p, #section4 .section_left p {
