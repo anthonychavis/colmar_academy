@@ -553,4 +553,12 @@ button {
     .section-3-text h3 a {
         font-size: 1.8rem;
     }
+
+    /* SECTION 4 mobile */
+    #section4 {
+        padding: 0 0 1.5rem;
+    }
+    #section4 h2 {
+        padding: 2rem 0 1rem;
+    }
 }
