@@ -29,24 +29,16 @@
     
 }
 
-.bgcolor3 {
-    background-color: hsl(187, 52%, 75%);
-}
-
 .bgcolor4 {
     background-color: hsl(187, 52%, 88%);
 }
 
 .bgcolor5 {
-    background-color: hsl(276, 100%, 15%);
+    background-color: hsl(276, 99%, 15%);
 }
 
 #section4 p, #section4 h3, #section4 h2, #section4 a {
-    color: hsl(36, 100%, 90%);
-}
-
-#section4 .highlight-article {
-    color: hsl(240, 100%, 15%);
+    color: hsl(276, 94%, 88%);
 }
 
 a {
@@ -302,6 +294,7 @@ article figure{
 #section3 {
     padding: 2rem 3.5rem;
     display: block;
+    color: hsl(276, 94%, 15%);
 }
 
 .flex  {
@@ -326,10 +319,10 @@ article figure{
 }
 
 #section3 a {
-    color: hsl(240, 100%, 15%);
+    color: hsl(276, 100%, 15%);
 }
 #section3 a:hover, #section3 a:focus {
-    color: hsl(177, 88%, 23%);
+    color: hsl(177, 88%, 20%);
     text-decoration: underline;
     text-underline-offset: 3px;
 }
@@ -392,9 +385,9 @@ video {
     padding: 1.5rem 0 0.5rem;
 }
 
-/* #video-p {
-    padding: 0 0 2rem;
-} */
+#section4 .highlight-article {
+    color: hsl(276, 94%, 15%);
+}
 
 #section4 article {
     border: none;
@@ -404,7 +397,7 @@ video {
     color: hsl(240, 100%, 15%);
 } */
 #section4 a:hover, #section4 a:focus {
-    color: hsl(177, 88%, 23%);
+    color: hsl(177, 88%, 20%);
     text-decoration: underline;
     text-underline-offset: 3px;
 }
