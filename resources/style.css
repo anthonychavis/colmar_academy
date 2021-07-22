@@ -120,7 +120,7 @@ header {
     header a:hover, header a:focus, footer a:hover, footer a:focus {
         color: hsl(177, 88%, 23%);
         text-decoration: underline;
-        text-underline-offset: 3px;
+        text-underline-offset: 3.5px;
     }
 }
 
@@ -282,7 +282,7 @@ article figure{
 
 .article_right a:hover, .article_right a:focus {
     text-decoration: underline;
-    text-underline-offset: 2px;
+    text-underline-offset: 3px;
 }
 
 /* SECTION 3 */
@@ -319,7 +319,7 @@ article figure{
 #section3 a:hover, #section3 a:focus {
     color: hsl(177, 88%, 20%);
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 3.5px;
 }
 
 #section3 figure {
@@ -394,7 +394,7 @@ video {
 #section4 a:hover, #section4 a:focus {
     color: hsl(177, 88%, 20%);
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 3.5px;
 }
 
 /* FOOTER */
@@ -480,7 +480,7 @@ button {
     }
 }
 
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 576px) {
     #section3 article {
         max-width: 100%;
     }
