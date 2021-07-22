@@ -480,17 +480,21 @@ button {
     }
 }
 
+@media screen and (max-width: 647px) {
+    footer {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 576px) {
     #section3 article {
         max-width: 100%;
     }
 }
 
-@media screen and (max-width: 557px) {
-    footer {
-        text-align: center;
-    }
-}
+/* @media screen and (max-width: 557px) {
+   
+} */
 
 @media screen and (min-width: 481px) {
     .mobile {
