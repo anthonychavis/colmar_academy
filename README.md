@@ -16,6 +16,20 @@ My Approach
 
 * First, this looks exciting to build. 
     * I am pretty sure I can build it with sections of flexbox throughout the entire page. 
-* After going that route, I would like to use grid. 
+
+After Thoughts (_so far_)
+--------------------
+
+* I actually tried a few different colors at first.
+    * Initially, I tried to steal like an artist by checking websites of various universities.
+    * Once I got some feedback from friends and family on the original colors, I had a solid idea of what would look nice and stand out some. 
+    * Then, I pivoted to a color I like.
+* I chose the color scheme here because:
+    * Purple is a powerfully elegant color.
+        * So, that could appropriately represent the prestige of an esteemed academic institution - COLMAR ACADEMY
+    * I wanted to use something I have seen UX/UI designers suggest - hsl - by adjusting the hue and lightness of a color to create contrast
+    * I thought it boring to simply go back and forth between only 2 backgrounds for the four sections of the page. So, I created one with a totally different background.
+    * It was obvious that certain articles were to be highlighted. So, I took the opportunity to highlight them with a totally different background that stood out, provided contrast, broke the monotony, but still complemented the dominant color of the page. 
+        * So, the blue was used in 3 of the four sections.
+* Eventually, I would like to use grid. 
     * Thinking compatibility will be an issue. So, this is how I will challenge myself a little extra.
-        * Eventually
