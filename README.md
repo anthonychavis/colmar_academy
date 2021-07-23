@@ -27,9 +27,9 @@ After Thoughts (_so far_)
 * I chose the color scheme here because:
     * Purple is a powerfully elegant color.
         * So, that could appropriately represent the prestige of an esteemed academic institution - COLMAR ACADEMY
-    * I wanted to use something I have seen UX/UI designers suggest - hsl - by adjusting the hue and lightness of a color to create contrast
-    * I thought it boring to simply go back and forth between only 2 backgrounds for the four sections of the page. So, I created one with a totally different background.
-    * It was obvious that certain articles were to be highlighted. So, I took the opportunity to highlight them with a totally different background that stood out, provided contrast, broke the monotony, but still complemented the dominant color of the page. 
+    * Wanted to use something I have seen UX/UI designers suggest - hsl - by adjusting the hue and lightness of a color to create contrast
+    * Thought it boring to simply go back and forth between only 2 backgrounds for the four sections of the page. So, created one with a totally different background.
+    * It was obvious that certain articles were to be highlighted. So, took the opportunity to highlight them with a totally different background that stood out, provided contrast, broke the monotony, but still complemented the dominant color of the page. 
         * So, the blue was used in 3 of the four sections.
 * Eventually, I would like to use grid. 
     * Thinking compatibility will be an issue. So, this is how I will challenge myself a little extra.
