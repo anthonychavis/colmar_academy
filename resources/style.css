@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* COLOR */
