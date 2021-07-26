@@ -31,5 +31,8 @@ After Thoughts (_so far_)
     * Thought it boring to simply go back and forth between only 2 backgrounds for the four sections of the page. So, created one with a totally different background.
     * It was obvious that certain articles were to be highlighted. So, took the opportunity to highlight them with a totally different background that stood out, provided contrast, broke the monotony, but still complemented the dominant color of the page. 
         * So, the blue was used in 3 of the four sections.
-* Eventually, I would like to use grid. 
+* Initially a serif font was used
+    * Wanted to have a different font than what most university sites have
+    * After getting feedback, I changed to a sans-serif that still seemed unique compared to the font used by universities I checked
+* Eventually, I would like to use grid on this same project. 
     * Thinking compatibility will be an issue. So, this is how I will challenge myself a little extra.
