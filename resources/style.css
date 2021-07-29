@@ -75,7 +75,7 @@ header {
     z-index: 5;
 }
 
-@media screen and (min-width: 822px){
+@media screen and (min-width: 824px){
     .navmobile {
         display: none;
     }
@@ -128,7 +128,7 @@ header {
     }
 }
 
-@media screen and (max-width: 822px){
+@media screen and (max-width: 824px){
     .desktop {
         display: none;
     }
