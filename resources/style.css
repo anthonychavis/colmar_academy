@@ -176,6 +176,11 @@ section img {
     width: 100%;
 }
 
+.shadow {
+    border-radius: 5px;
+    box-shadow: -2px 2px 8px hsl(308, 62%, 55%);
+}
+
 .section_right {
     width: 40%;
     padding: 2rem 0;
@@ -296,6 +301,13 @@ article figure{
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+}
+
+.shadow-3 {
+    border-radius: 5px;
+    box-shadow: -2px 2px 8px hsl(308, 62%, 55%);
+    overflow: hidden;
+    height: 100%;
 }
 
 #section3 h2 {
