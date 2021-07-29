@@ -109,10 +109,10 @@ header {
         align-items: center;
     }
 
-    nav ul {
+    /* nav ul {
         display: flex;
         justify-content: flex-end;
-    }
+    } */
     
     nav li {
         list-style: none;
