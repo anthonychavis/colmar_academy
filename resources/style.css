@@ -107,6 +107,11 @@ header {
         display: flex;
         align-items: center;
     }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
     
     nav li {
         list-style: none;
