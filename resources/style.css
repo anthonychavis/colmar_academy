@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:wght@300;400;500;600;700&display=swap&effect=fire-animation');
+
 * {
     margin: 0;
     padding: 0;
@@ -238,7 +240,7 @@ button:hover, button:focus {
 } */
 
 /* SECTION 2 */
-#section2 {
+#section2, #section2 .font-effect-fire-animation{
     color: hsl(276, 94%, 35%);
 }
 
@@ -303,6 +305,9 @@ article figure{
     color: hsl(276, 94%, 15%);
 }
 
+#section3.font-effect-fire-animation {
+    color: hsl(276, 94%, 90%);
+}
 .flex  {
     display: flex;
     flex-flow: wrap;
