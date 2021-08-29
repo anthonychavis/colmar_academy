@@ -55,7 +55,7 @@ h2{
 }
 
 img {
-    border-radius: 1px;
+    border-radius: 7px;
     display: block;
 }
 
@@ -302,6 +302,31 @@ article figure{
     text-underline-offset: 3px;
 }
 
+#section2 .layerBox {
+    position: relative;
+}
+#section2 .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 500ms;
+}
+#section2 .layer0 {
+    opacity: .2;
+}
+#section2 .layerBox:hover .layer.layer1, #section2 .layerBox:focus .layer.layer1 {
+    transform: translate(12px, -12px);
+    opacity: .4;
+}
+#section2 .layerBox:hover .layer.layer2, #section2 .layerBox:focus .layer.layer2 {
+    transform: translate(24px, -24px);
+    opacity: .6;
+}
+#section2 .layerBox:hover .layer.layer3, #section2 .layerBox:focus .layer.layer3 {
+    transform: translate(36px, -36px);
+    opacity: 1;
+}
+
 /* SECTION 3 */
 #section3 {
     padding: 2rem 3.5rem;
@@ -413,6 +438,33 @@ video {
 
 #section4 article {
     border: none;
+}
+#section4 img {
+    border-radius: 7px;
+}
+#section4 .layerBox {
+    position: relative;
+}
+#section4 .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 600ms;
+}
+#section4 .layer0 {
+    opacity: .2;
+}
+#section4 .layerBox:hover .layer.layer1, #section4 .layerBox:focus .layer.layer1 {
+    transform: translate(14px, -12px);
+    opacity: .4;
+}
+#section4 .layerBox:hover .layer.layer2, #section4 .layerBox:focus .layer.layer2 {
+    transform: translate(28px, -24px);
+    opacity: .6;
+}
+#section4 .layerBox:hover .layer.layer3, #section4 .layerBox:focus .layer.layer3 {
+    transform: translate(42px, -36px);
+    opacity: 1;
 }
 
 /* #section4 a {
