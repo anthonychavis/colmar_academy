@@ -470,6 +470,15 @@ video {
 /* #section4 a {
     color: hsl(240, 100%, 15%);
 } */
+
+.empire {
+    transition: filter 600ms ease-in 100ms;
+}
+
+.empire:hover , .empire:focus {
+    filter: hue-rotate(180deg);
+}
+
 #section4 a:hover, #section4 a:focus {
     color: hsl(177, 88%, 20%);
     text-decoration: underline;
