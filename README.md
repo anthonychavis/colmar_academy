@@ -34,5 +34,3 @@ After Thoughts (_so far_)
 * Initially a serif font was used
     * Wanted to have a different font than what most university sites have
     * After getting feedback, I changed to a sans-serif that still seemed unique compared to the font used by universities I checked
-* Eventually, I would like to use grid on this same project. 
-    * Thinking compatibility will be an issue. So, this is how I will challenge myself a little extra.
